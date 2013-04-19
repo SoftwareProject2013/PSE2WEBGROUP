@@ -5,6 +5,9 @@ using System.Text;
 using Microsoft.Web.WebPages.OAuth;
 using BeerShop.Models;
 
+
+
+//Test of Git zzzzzzzzzzzzzzzzzzzzzzzzzzzz
 namespace BeerShop
 {
     public static class AuthConfig
