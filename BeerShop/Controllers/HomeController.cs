@@ -31,5 +31,7 @@ namespace BeerShop.Controllers
 
         //fihjsasadgiusahdgpiusahdgpiusahdgipuasdhgisudfhgspidufhgsdfuhg
         //dgiohsdfgpiushdfgpdufig
+
+        // made new comments
     }
 }
