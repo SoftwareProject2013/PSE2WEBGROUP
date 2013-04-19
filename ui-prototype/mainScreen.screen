@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="929" height="881" text="Browser&#xA;http://..." measuredWidth="929" measuredHeight="881"/>
+  <widgets xsi:type="model:Master" id="3" x="10" y="62" measuredWidth="908" measuredHeight="149">
+    <screen xsi:type="model:Screen" href="Components/header.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="10" x="218" y="229" width="327" height="236" text="Most popular product" measuredWidth="327" measuredHeight="236" link="productScreen.screen"/>
+  <widgets xsi:type="model:Placeholder" id="13" x="568" y="229" width="327" height="236" text="Special Offer" measuredWidth="327" measuredHeight="236" link="productScreen.screen"/>
+  <widgets xsi:type="model:Placeholder" id="14" x="218" y="488" width="327" height="236" text="Best seller" measuredWidth="327" measuredHeight="236" link="productScreen.screen"/>
+  <widgets xsi:type="model:Placeholder" id="15" x="568" y="488" width="327" height="236" text="Product of the month" measuredWidth="327" measuredHeight="236" link="productScreen.screen"/>
+  <widgets xsi:type="model:Master" id="16" x="32" y="229" measuredWidth="94" measuredHeight="103">
+    <screen xsi:type="model:Screen" href="Components/categoriesList.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
