@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="929" height="881" text="Browser&#xA;http://..." measuredWidth="929" measuredHeight="881"/>
+  <widgets xsi:type="model:ButtonBar" id="3" x="656" y="224" text="My orders, My account" measuredWidth="178" measuredHeight="27" selection="0">
+    <font size="18px"/>
+    <items x="0" y="0" width="84" height="27" text="My orders"/>
+    <items x="84" y="0" width="94" height="27" text="My account"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="10" y="62" measuredWidth="908" measuredHeight="149">
+    <screen xsi:type="model:Screen" href="Components/headerSigned.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="5" x="136" y="296" width="633" height="121" text="(w:70).Date,Order Number (your name),(w:50).Price,(w:200).Status&#xA;2012/01/01,134423334 (Gift for dad),120,Delivered&#xA;2012/01/10,311345434 (), 45, Delivered&#xA;2013/03/30,453233244 (Experiment), 31, Send&#xA;2013/04/01,424562323 (), 94, Waiting for payment" measuredWidth="633" measuredHeight="121" alternative="#eeeeee">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="134" y="236" text="My orders" measuredWidth="164" measuredHeight="46">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="136" y="448" text="Order 134423334" measuredWidth="216" measuredHeight="36">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="360" y="453" text="Gift for dad" measuredWidth="88" measuredHeight="26">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="14" x="80" y="496" width="777" text="Items,(w:70).Price/item,(w:70).Quantity,(w:70).Subtotal price&#xA;Item 1, 10, 5,50&#xA;Item 2, 10, 1,10&#xA;Item 3, 15, 4, 60" measuredWidth="777" measuredHeight="84" alternative="#eeeeee">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="630" y="592" measuredWidth="133" measuredHeight="26">
+    <widgets xsi:type="model:Label" id="16" width="99" text="Total Price:" measuredWidth="99" measuredHeight="26">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="17" x="98" text="120" measuredWidth="35" measuredHeight="26">
+      <font size="20px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Table" id="18" x="80" y="608" width="303" height="121" text="(w:70).Date,Status&#xA;2012/01/01,Order placed&#xA;2012/01/02,Send&#xA;2012/01/05,Delivered" measuredWidth="303" measuredHeight="121" alternative="#eeeeee">
+    <font size="18px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="929" height="881" text="Browser&#xA;http://..." measuredWidth="929" measuredHeight="881"/>
+  <widgets xsi:type="model:Master" id="3" x="32" y="229" measuredWidth="94" measuredHeight="103">
+    <screen xsi:type="model:Screen" href="Components/categoriesList.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="4" x="168" y="288" width="253" height="221" text="Picture" measuredWidth="253" measuredHeight="221"/>
+  <widgets xsi:type="model:Text" id="5" x="444" y="295" text="A paragraph of *text*.&#xA;* A bullet&#xA;* List&#xA;## Is created&#xA;## Like this" measuredWidth="132" measuredHeight="75">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="168" y="532" text="In stock:" measuredWidth="68" measuredHeight="23">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="252" y="532" text="10+" measuredWidth="49" measuredHeight="23" icon="check (small)">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="324" y="532" text="Price:" measuredWidth="47" measuredHeight="23">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="703" y="508" text="Quantity:" measuredWidth="62" measuredHeight="23">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="372" y="531" text="10" measuredWidth="21" measuredHeight="23">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="703" y="534" width="109" text="Add to basket" measuredWidth="109" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="771" y="508" width="40" text="1" measuredWidth="40" measuredHeight="23">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="177" y="232" text="Product name" measuredWidth="228" measuredHeight="46">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="18" x="152" y="568" width="681" measuredWidth="681" measuredHeight="6"/>
+  <widgets xsi:type="model:TextArea" id="19" x="168" y="624" width="593" height="89" text="Add a comment" measuredWidth="593" measuredHeight="89">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="20" x="168" y="768" width="593" height="73" text="*Customer 1* _2012/01/01, 10:31_ Blah bla blah&#xA;*Customer 2* _2012/01/01, 12:35_ Great drink!&#xA;*Employee 1* _2012/01/01, 12:40_ Thanks :-)" measuredWidth="593" measuredHeight="73">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="688" y="720" width="73" text="Post" measuredWidth="73" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="24" x="264" y="721" width="165" text="Anonymous customer" measuredWidth="165" measuredHeight="23">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="168" y="721" text="Your name:" measuredWidth="89" measuredHeight="23">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="177" y="592" text="Comments" measuredWidth="97" measuredHeight="28">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="10" y="62" measuredWidth="908" measuredHeight="149">
+    <screen xsi:type="model:Screen" href="Components/headerSigned.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

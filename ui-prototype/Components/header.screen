@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Placeholder" id="2" width="753" height="105" text="Logo and company name" measuredWidth="753" measuredHeight="105" link="../mainScreen.screen"/>
+  <widgets xsi:type="model:Placeholder" id="3" x="800" width="108" height="105" text="Basket preview" measuredWidth="108" measuredHeight="105" link="../basketScreen.screen"/>
+  <widgets xsi:type="model:SearchField" id="4" x="16" y="120" width="185" text="Search" measuredWidth="185" measuredHeight="24">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="288" y="115" measuredWidth="438" measuredHeight="34">
+    <widgets xsi:type="model:Link" id="7" y="4" text="Contact" measuredWidth="60" measuredHeight="26">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="8" x="128" y="4" text="Rules" measuredWidth="41" measuredHeight="26">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="9" x="376" y="4" text="Register" measuredWidth="62" measuredHeight="26" link="../registerScreen.screen">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="10" x="88" y="1" height="31" measuredWidth="6" measuredHeight="31"/>
+    <widgets xsi:type="model:VLine" id="12" x="336" height="34" measuredWidth="6" measuredHeight="34"/>
+    <widgets xsi:type="model:Link" id="16" x="256" y="4" text="Login" measuredWidth="41" measuredHeight="26">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="17" x="216" y="1" height="31" measuredWidth="6" measuredHeight="31"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

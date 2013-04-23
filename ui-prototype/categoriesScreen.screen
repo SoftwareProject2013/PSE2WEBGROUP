@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="929" height="881" text="Browser&#xA;http://..." measuredWidth="929" measuredHeight="881"/>
+  <widgets xsi:type="model:Master" id="3" x="32" y="229" measuredWidth="94" measuredHeight="103">
+    <screen xsi:type="model:Screen" href="Components/categoriesList.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="210" y="229" measuredWidth="591" measuredHeight="156">
+    <widgets xsi:type="model:Rectangle" id="4" width="591" height="156" measuredWidth="591" measuredHeight="156">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="5" width="159" height="156" text="Picture" measuredWidth="159" measuredHeight="156"/>
+    <widgets xsi:type="model:Link" id="7" x="190" y="115" text="More details" measuredWidth="81" measuredHeight="23" link="productScreen.screen">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="9" x="493" y="115" text="Price: 10" measuredWidth="60" measuredHeight="23">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="35" x="253" y="40" text="Name, rate, short description&#xA;" measuredWidth="188" measuredHeight="15">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="36" x="210" y="416" measuredWidth="591" measuredHeight="156">
+    <widgets xsi:type="model:Rectangle" id="37" width="591" height="156" measuredWidth="591" measuredHeight="156">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="38" width="159" height="156" text="Picture" measuredWidth="159" measuredHeight="156"/>
+    <widgets xsi:type="model:Link" id="39" x="190" y="115" text="More details" measuredWidth="81" measuredHeight="23" link="productScreen.screen">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="40" x="493" y="115" text="Price: 10" measuredWidth="60" measuredHeight="23">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="41" x="253" y="40" text="Name, rate, short description&#xA;" measuredWidth="188" measuredHeight="15">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="210" y="608" measuredWidth="591" measuredHeight="156">
+    <widgets xsi:type="model:Rectangle" id="43" width="591" height="156" measuredWidth="591" measuredHeight="156">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="44" width="159" height="156" text="Picture" measuredWidth="159" measuredHeight="156"/>
+    <widgets xsi:type="model:Link" id="45" x="190" y="115" text="More details" measuredWidth="81" measuredHeight="23" link="productScreen.screen">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="46" x="493" y="115" text="Price: 10" measuredWidth="60" measuredHeight="23">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="47" x="253" y="40" text="Name, rate, short description&#xA;" measuredWidth="188" measuredHeight="15">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="48" x="10" y="62" measuredWidth="908" measuredHeight="149">
+    <screen xsi:type="model:Screen" href="Components/headerSigned.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
